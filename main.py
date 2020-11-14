@@ -5,8 +5,8 @@ import os
 
 volumeLevel = input("Volume Level: ")
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="01092811967a457ba2e4ab6a7434189f",
-                                               client_secret="1f221bd1f02347858bbbd7d4379b27ba",
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="CLIENT_ID",
+                                               client_secret="CLIENT_SECRET",
                                                redirect_uri="http://localhost:8888/callback",
                                                scope="user-read-currently-playing"))
 
